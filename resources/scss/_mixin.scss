@@ -1,0 +1,9 @@
+$blue-color-caitan: #0900ff;
+$violet-color-caitan: #a435f0; 
+$pink-color-caitan: #ff00e5;
+
+@mixin bg-img-gradient {
+  background-image: linear-gradient(to left, $blue-color-caitan, $violet-color-caitan, $pink-color-caitan, $blue-color-caitan,$pink-color-caitan);
+  background-image: linear-gradient(to left, #EA4335 2%, #FBBC05, #34A853 , #4285F4 80%, #34A853 );
+} 
+ 

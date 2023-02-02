@@ -1,0 +1,40 @@
+// colors
+$input-background: rgba(57, 63, 84, 0.8);
+$input-text-inactive: #7881A1;
+$input-text-active: #BFD2FF;
+
+// gradient animation
+@keyframes gradient { 
+  0%{background-position:0 0}
+  100%{background-position:100% 0}
+}
+
+.form-group {
+  position: relative; 
+  width: 100%; 
+  border-radius: 2px; 
+  &:after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px; 
+    height: 2px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-position: 0% 0%;
+    @include bg-img-gradient;
+    // background: linear-gradient(to right, #B294FF, #57E6E6, #FEFFB8, #57E6E6, #B294FF, #57E6E6);
+    background-size: 500% auto;
+    animation: gradient 3s linear infinite;
+  }
+}
+
+.form-group input {
+  flex-grow: 1; 
+  line-height: 2.4rem;
+  vertical-align: middle;
+  &::-webkit-input-placeholder {
+    color: $input-text-inactive;
+  }
+}
