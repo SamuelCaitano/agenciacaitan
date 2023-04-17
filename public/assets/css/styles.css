@@ -94,8 +94,7 @@ A. Basic Styling
 }
 
 body {
-    color: #fff;
-    /* background-color: var(--primary-color); */
+    color: #fff; 
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     margin: 0;
@@ -819,11 +818,7 @@ p {
 
 /*-------------------------------------------
   -- Title
--------------------------------------------*/
-
-.ts-title {
-}
-
+-------------------------------------------*/ 
 .ts-title h5 {
     font-weight: normal;
     opacity: 0.5;
@@ -1006,9 +1001,7 @@ C. Components
     position: relative;
 }
 
-section {
-    position: relative;
-}
+
 
 /*-------------------------------------------
   -- Blockquote
@@ -1716,7 +1709,7 @@ ul.ts-list-colored-bullets li:before {
   -- Loading Screen
 -------------------------------------------*/
 
-body.has-loading-screen:before {
+/* body.has-loading-screen:before {
     background-color: #000;
     content: "";
     height: 100%;
@@ -1752,7 +1745,7 @@ body.has-loading-screen.loading-done:before {
 body.has-loading-screen.loading-done:after {
     transform: scale(0);
     opacity: 0;
-}
+} */
 
 /*-------------------------------------------
   -- Map
@@ -1806,7 +1799,7 @@ body.has-loading-screen.loading-done:after {
     transition-delay: 1.3s;
 }
 
-#ts-hero.ts-animate-hero-items .ts-social-icons {
+#ts-hero.ts-animate-hero-items .ts-social-icons{
     opacity: 0;
     transition: 0.3s ease;
     transform: translateX(0.3125rem) rotate(0.002deg);
@@ -1823,7 +1816,7 @@ body.loading-done #ts-hero.ts-animate-hero-items h1:not(.ts-bubble-border) {
     transform: translateY(0);
 }
 
-body.loading-done #ts-hero.ts-animate-hero-items .ts-social-icons {
+body.loading-done #ts-hero.ts-animate-hero-items .ts-social-icons{
     opacity: 1;
     transform: translateX(0) rotate(0.002deg);
 }
