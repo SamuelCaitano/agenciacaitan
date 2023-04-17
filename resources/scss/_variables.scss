@@ -1,17 +1,19 @@
 // Colors
-$primary-color-caitan: #131325;
+$--primary-color-caitan: #0064FF;
+$--white-color-caitan: #fff;
+$--whitesmoke-color-caitan:#f1f1ed; 
+
 $orange-color-caitan: #ff6900;
 $yellow-color-caitan: #fcb900; 
 $green-color-caitan: #47ea4e;
 $green-light-color-caitan: #13e413;
-$white-color-caitan: #fff;
-$white-hover-caitan:#f1f1ed;  
+ 
 $dimgray-color-caitan: #696969;
 // $yellow-color-caitan: #fbcf0c;
 
 
 $gray-color-caitan: #cccc;
-$linear-gradient: linear-gradient(to left, $primary-color-caitan, $green-color-caitan, $yellow-color-caitan);
+$linear-gradient: linear-gradient(to left, $--primary-color-caitan, $green-color-caitan, $yellow-color-caitan);
 
 
 // dark
