@@ -18,11 +18,12 @@
             {{-- inserir link da redes sociais --}}
             <li><a class="facebook transition__0-9s" href="#"><i class="fab fa-facebook-f"></i></a></li>
             <li><a class="twitter transition__0-9s" href="#"><i class="fab fa-twitter"></i></a></li>
-            <li><a class="instagram transition__0-9s" href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a class="instagram transition__0-9s" href="https://www.instagram.com/agenciacaitan/"><i
+                  class="fab fa-instagram"></i></a></li>
             <li><a class="linkedin transition__0-9s" href="#"><i class="fab fa-linkedin-in"></i></a></li>
-            <li><a class="pinterest transition__0-9s" href="#"><i class="fab fa-pinterest-p"></i></a></li>
-            <li><a class="skype transition__0-9s" href="#"><i class="fab fa-skype"></i></a></li>
-            <li><a class="behance transition__0-9s" href="#"><i class="fab fa-behance"></i></a></li>
+            {{-- <li><a class="pinterest transition__0-9s" href="#"><i class="fab fa-pinterest-p"></i></a></li> --}}
+            {{-- <li><a class="skype transition__0-9s" href="#"><i class="fab fa-skype"></i></a></li> --}}
+            {{-- <li><a class="behance transition__0-9s" href="#"><i class="fab fa-behance"></i></a></li> --}}
             <li><a class="telegram transition__0-9s" href="#"><i class="fab fa-telegram"></i></a></li>
           </ul>
         </div>
@@ -36,12 +37,13 @@
             <div class="footer-logo" role="banner">
               <a href="#" class="logo">
                 <picture>
-                  <img src="\assets\img\logo\logo-site-branca.png" alt="Loga Agência Caitan">
+                  <img src="assets\img\logo\logo-site-branca.png" alt="Loga Agência Caitan">
                 </picture>
               </a>
             </div>
             <div class="footer-text" aria-labelledby="concept">
-              <p id="concept">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam incidunt fuga temporibus a explicabo adipisci laborum reprehenderit repudiandae voluptatem officiis eaque, minima tempore aliquam alias aut quos? Dolores, culpa ducimus.</p>
+              <p id="concept">Aqui sua empresa fica bem posicionada, no Google, Ifood, Instagram, Shopify, Facebook,
+                aumentando suas vendas locais.</p>
             </div>
           </div>
         </div>
@@ -53,8 +55,8 @@
             <ul aria-labelledby="important_link" role="navigation">
               <!-- inserir link da paginas -->
               <li><a href="#body">Home</a></li>
-              <li><a href="#about-me">About</a></li>
-              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#services">Nossos Serviços</a></li>
+              <li><a href="#about">Quem somos</a></li>
               <li><a href="#products">Products</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
@@ -71,8 +73,9 @@
             <div class="subscribe-form">
               <!-- inserir action -->
               <form method="POST" action="#">
-                <input type="email" name="email" autocomplete="on" value=" " placeholder="E-mail"  required>
-                <button type="submit" aria-describedby="descriptionButton"><i class="fa-solid fa-paper-plane"></i></button>                    
+                <input type="email" name="email" autocomplete="on" value=" " placeholder="E-mail" required>
+                <button type="submit" aria-describedby="descriptionButton"><i
+                    class="fa-solid fa-paper-plane"></i></button>
               </form>
             </div>
           </div>
@@ -85,7 +88,6 @@
       <div class="row">
         <div class="col-xl-12 col-lg-12 text-center text-lg-left">
           <div class="copyright-text">
-            {{-- adicionar o link do whats --}}
             <p>Copyright &copy; 2023, Todos direitos reservados - Desenvolvido por <a
                 title="clique e siga meu perfil no LinkedIn" target="_blanck"
                 href="https://www.instagram.com/agenciacaitan/">Agência Caitan</a></p>
