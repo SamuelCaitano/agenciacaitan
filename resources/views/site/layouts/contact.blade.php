@@ -3,26 +3,24 @@
     <div class="pt-5">
       <div class="row">
         <div class="col-md-4">
-          <h3>Escanei o QR Code</h3>
+          <h3 style="margin: 0">Escanei o QR Code</h3>
+          <p style="color: dimgray">aponte a câmera ou click sobre.</p>
           <div class="ts-column-count-sm-2">
-            <div style="text-align: center;   ">
-              <a href="#" class="mb-3 d-flex text-white ts-align__vertical" style="position: relative;
-                    justify-content: center;
-                    /* background: #47ea4e; */
-                    border-radius: 15px;
-                    /* bottom: -30px; */
-                    /* padding: 10px; */
-                    z-index: 1; 
-                    text-decoration: none;
-                    width: fit-content;">
-                {{-- <span class="" style="display: flex; align-items: center; text-align:center">
-                  <i style="font-size: 30px" class="fab fa-whatsapp"></i>
-                </span> --}}
-                {{-- <span>Whatsapp</span> --}}
-                <img src="\assets\img\me\qrcode.png" alt="">
+            <div class="col-12" style="text-align: center; display:flex">
+              {{-- QRCODE GERADO PELO SITE https://me-qr.com/pt/qr-code-generator/qr --}}
+              <div class="col-6">
+                <a href="https://www.instagram.com/agenciacaitan/" target="_blank" rel="noopener noreferrer">
+                  <img style="width: 100%; max-width: 200px;" src="assets\img\me\qrcode-instagram.png" alt="">
+                </a>
+                </div>
+              <div class="col-6"> 
+                <img style="width: 100%; max-width: 200px;" src="assets\img\me\qrcode.png" alt=""></div>
+              <a href="" class="mb-3 d-flex text-white ts-align__vertical" style="position: relative;
+                    justify-content: center; border-radius: 15px; padding: 10px; z-index: 1;vtext-decoration: none;vwidth: fit-content;"> 
+                
               </a>
             </div>
-            {{-- <div>
+            <div>
               <a href="#" class="mb-3 d-flex text-white ts-align__vertical">
                 <span class="ts-circle__xs border border-white ts-border-light mr-4">
                   <i class="fab fa-facebook-f"></i>
@@ -59,7 +57,7 @@
                 </span>
                 <span>Behance</span>
               </a>
-            </div> --}}
+            </div>
 
           </div>
         </div>
@@ -68,6 +66,7 @@
           <h3>Envie sua mensagem, nossa equipe irá te ajudar!</h3>
           <form id="form-contact" method="post" class="clearfix ts-form ts-form-email"
             data-php-path="assets/php/email.php">
+            @csrf
             <div class="row">
               <div class="col-md-6 col-sm-6">
                 <div class="form-group">

@@ -1,46 +1,39 @@
-<section id="about-me" class="ts-block pb-4"  style="background: white; color: black">
+<section id="about" class="p-section-caitan pb-4 about">
   <div class="container">
     <div class="ts-title text-center">
       <h2 aria-labelledby="about-me-desc">Quem somos</h2>
     </div>
     <!--end ts-title-->
+    <div class="texto" style="margin-bottom: 20px;">
+      <h4 class="ts-bubble-border"
+        style="background: #0d6efd; color: white; font-weight: 900; width: 100%; max-width: 500px;">
+        <span class="container">
+          <span class="word">Seja bem-vindo a sua agência!</span>
+          <span class="word escrit">temos o que você precisa</span>
+          <span class="word">para sua empresa</span>
+          <span class="word">para seu e-commerce</span>
+          <span class="word">ou projetos pessoais</span>
+        </span>
+      </h4>
+    </div>
     <div class="row ts-align__vertical">
       <div class="col-md-6">
-        <img src="\assets\img\cover\empresa.png" alt="Agência Caitan" class="mw-100 mb-5" draggable="false" style="border-radius: 15px;">
+        {{-- <img src="assets\img\cover\empresa.png" alt="Agência Caitan" class="mw-100 mb-5" draggable="false"
+          style="border-radius: 15px;"> --}}
+          <video width="100%" controls="controls" poster="assets\img\cover\empresa.png" style="border-radius: 15px;">
+            <source src="assets/video/about.mp4" type="video/mp4">
+            {{-- <source src="filme.ogg" type="video/ogg"> --}}
+          Seu navegador não suporta HTML5.
+        </video>
       </div>
-      <div class="col-md-6" style="overflow-wrap: break-word;">
+      <div class="col-md-6" style="overflow-wrap: break-word;"> 
 
-        {{-- <div class="texto">
-          <h4 class="ts-bubble-border" style="background: #0d6efd; color: white; font-weight: 900;">
-            <span class="container">
-              <span class="word">Seja bem-vindo a nossa agência!</span>
-              <span class="word escrit">Aqui você encontra tudo que presica</span>
-              <span class="word">para sua empresa</span>
-              <span class="word">para seu eccomerce</span>
-              <span class="word">ou para seus projetos pessoais</span>
-              </span>  
-            </h4>
-        </div> --}}
 
-        <div class="texto" style="margin-bottom: 20px;">
 
-          <h4 class="ts-bubble-border" style="background: #0d6efd; color: white; font-weight: 900; width: 100%"> 
-          <span class="container">
-          <span class="word">Seja bem-vindo a nossa agência!</span>
-          <span class="word escrit">Aqui você encontra tudo que presica</span>
-          <span class="word">para sua empresa</span>
-          <span class="word">para seu eccomerce</span>
-          <span class="word">ou para seus projetos pessoais</span>
-          </span> 
-          </h4> 
-          
-      </div>
 
-        
- 
-          <script>
-            
-var words = document.getElementsByClassName('word');
+
+        <script>
+          var words = document.getElementsByClassName('word');
 var wordArray = [];
 var currentWord = 0;
 
@@ -96,11 +89,13 @@ changeWord();
 setInterval(changeWord, 3500);
 
 
-          </script>
+        </script>
 
 
         <p id="about-me-desc">
-          Nós já estamos no mercado digital á 1 ano, já ajudamos vários clientes a realizar vendas pela internet, prospectar novos leads, e apresentar de forma eficiente e relevante as pessoas certas os mais de 1000 já anúncios criados!
+          Nós já estamos no mercado digital á 1 ano, já ajudamos vários clientes a realizar vendas pela internet,
+          prospectar novos leads, e apresentar de forma eficiente e relevante as pessoas certas os mais de 1000 já
+          anúncios criados!
         </p>
         <dl class="ts-column-count-2">
           <dt>CNPJ:</dt>
@@ -114,10 +109,11 @@ setInterval(changeWord, 3500);
         </dl>
         <hr class="ts-hr-light mb-5">
         <a href="#contact" class="ts-btn-effect mr-2" style="border-radius: 10px">
-          <span class="ts-visible btn btn-primary ts-btn-arrow">Contact Us</span>
-          <span class="ts-hidden btn ts-btn-arrow" >Contact Us</span>
-        </a> 
-        <a href="\assets\img\me\curriculo.txt" class="ts-btn-effect mr-2" download="curriculo.pdf" style="border-radius: 10px">
+          <span class="ts-visible btn btn-primary ts-btn-arrow">Entrar em contato</span>
+          <span class="ts-hidden btn ts-btn-arrow">Entrar em contato</span>
+        </a>
+        <a href="assets\img\me\curriculo.txt" class="ts-btn-effect mr-2" download="curriculo.pdf"
+          style="border-radius: 10px">
           <span class="ts-visible btn btn-outline-light btn-dark">
             <i class="fa fa-download small mr-2"></i>
             Download CV

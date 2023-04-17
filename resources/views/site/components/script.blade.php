@@ -194,7 +194,7 @@
   wow.init();  
 
 </script>
- 
+
 <!-- Js para funcionar a keyframes -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.15.0/lodash.min.js"></script>
 
@@ -212,7 +212,7 @@
 <!-- OwlCarousel -->
 <script src="assets/js/owl.carousel.min.js"></script>
 {{-- ARQUIVO ESSENCIAL PARA O FUNCIONAMENTO DA HOME --}}
-<script src="/assets/js/custom.js"></script>
+<script src="assets/js/custom.js"></script>
 
 
 </body>

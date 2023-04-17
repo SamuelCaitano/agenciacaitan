@@ -4,8 +4,7 @@
       <h3 class="my-3">
         Vamos juntos expandir a sua empresa no mundo digital!
       </h3>
-      <a href="#contact" class="btn btn-primary mr-2 ts-push-down__50 ts-has-talk-arrow">Começar agora!</a>
-      <div class="ts-background ts-opacity__20" data-bg-image="assets/img/bg-keyboard.jpg"></div>
+      <a href="#contact" class="btn btn-primary mr-2 ts-push-down__50 ts-has-talk-arrow">Começar agora!</a> 
     </div>
   </div>
 </section>

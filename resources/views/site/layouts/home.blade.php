@@ -4,7 +4,7 @@ top: 80px;">
   <!--HERO CONTENT ****************************************************************************************-->
   <div class="container position-relative h-100 ts-align__vertical">
     <div class="row w-100">
-      <div class="col-md-8">
+      <div class="col-md-6">
         <!--SOCIAL ICONS-->
         <figure class="ts-social-icons mb-4" style="font-size: 40px">
           <a target="_blanck" href="#" class="mr-3">
@@ -30,12 +30,12 @@ top: 80px;">
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-weight: 900;">SUA EMPRESA NO DIGITAL!</h1>
-        <h2><span style="text-transform: uppercase; color: black;
-          font-weight: 900;">PARE DE GASTAR DINHEIRO, AQUI VOCÊ ALCANÇA O PUBLICO CERTO</span></h2>
+        {{-- <h2><span style="text-transform: uppercase; color: black;
+          font-weight: 900;">PARE DE GASTAR DINHEIRO, AQUI VOCÊ ALCANÇA O PUBLICO CERTO</span></h2> --}}
         <h1 class="ts-bubble-border" style="background: #0064FF; font-weight: 900">
           <span class="ts-title-rotate">
             <span class="active">+Resultados</span>
-            <span>+Captação de Leads</span>
+            <span>+Leads</span>
             <span>Estratégia</span>
             <span>Planejamento</span>
           </span>
@@ -43,9 +43,16 @@ top: 80px;">
 
       </div>
       <!--end col-md-8-->
+      <div class="col-md-6">
+        <video class="ts-video" width="100%"controls="controls" poster="assets/img/cover/placeholder.webp" style="border-radius: 15px;">
+          <source src="assets\video\2023-02-20 13-13-13.mkv" type="video/mp4">
+          {{-- <source src="filme.ogg" type="video/ogg"> --}}
+        Seu navegador não suporta HTML5.
+      </video>
+      </div>
     </div>
     <!--end row-->
-    <a href="#my-services" class="ts-btn-effect position-absolute ts-bottom__0 ts-left__0 ts-scroll ml-3 mb-3">
+    <a href="#services" class="ts-btn-effect position-absolute ts-bottom__0 ts-scroll ml-3 mb-3">
       <span class="ts-visible ts-circle__sm rounded-0 ts-bg-primary">
         <i class="fa fa-arrow-down text-white"></i>
       </span>
